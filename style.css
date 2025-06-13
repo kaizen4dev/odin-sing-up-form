@@ -3,3 +3,21 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+  display: flex;
+}
+
+body>.left {
+  background-image: url("imgs/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 35%;
+}
+
+body>.right {
+  height: 100%;
+  width: 65%;
+}
