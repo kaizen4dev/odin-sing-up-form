@@ -86,3 +86,7 @@ section p:nth-child(even) {
 section p {
   margin-top: 1rem;
 }
+
+h2 {
+  width: 40rem;
+}
