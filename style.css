@@ -76,7 +76,7 @@ body>.right {
   background-color: white;
   border-style: none;
   margin: 0;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 3rem 2.5rem;
 }
 
 form>* {
@@ -89,7 +89,7 @@ section p:nth-child(even) {
 }
 
 section p {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 h2 {
