@@ -93,7 +93,7 @@ section p {
 }
 
 h2 {
-  width: 40rem;
+  max-width: 40rem;
 }
 
 input {
