@@ -83,12 +83,12 @@ form>* {
   margin: 1.5rem 3rem;
 }
 
-section p:nth-child(even) {
+#inputs p:nth-child(even) {
   float: left;
   margin-right: 3rem;
 }
 
-section p {
+#inputs p {
   margin-top: 1.5rem;
 }
 
