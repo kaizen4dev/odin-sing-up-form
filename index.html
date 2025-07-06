@@ -37,32 +37,32 @@
 
         <p>
           <legend for="name">First name</legend>
-          <input id="name" required>
+          <input id="name" pattern="\S+" placeholder="John" required>
         </p>
 
         <p>
           <legend for="last-name">Last name</legend>
-          <input id="last-name" required>
+          <input id="last-name" pattern="\S+" placeholder="Doe" required>
         </p>
 
         <p>
           <legend for="email">Email</legend>
-          <input id="email" type="email" required>
+          <input id="email" type="email" pattern="\S+" placeholder="johndoe@example.com" required>
         </p>
 
         <p>
           <legend for="phone">Phone number</legend>
-          <input id="phone" type="tel" required>
+            <input id="phone" type="tel" pattern="[+]\d{8,15}" placeholder="+1234567890"required>
         </p>
 
         <p>
           <legend for="pass">Password</legend>
-          <input id="pass" type="password" required>
+          <input id="pass" type="password" pattern="\S{8,}" placeholder="••••••••••••" required>
         </p>
 
         <p>
           <legend for="confirm-pass">Confirm Password</legend>
-          <input id="confirm-pass" type="password" required>
+          <input id="confirm-pass" type="password" pattern="\S{8,}" placeholder="••••••••••••" required>
         </p>
       </section>
 
