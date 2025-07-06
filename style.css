@@ -135,3 +135,9 @@ button:hover {
   background: #556845;
   box-shadow: 0 4px 4px rgb(0, 0, 0, 0.4);
 }
+
+a {
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+}
